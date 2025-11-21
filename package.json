@@ -1,0 +1,12 @@
+{
+  "name": "data-scraper",
+  "version": "1.0.0",
+  "description": "Automated metrics scraper (Playwright + GitHub Actions)",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
